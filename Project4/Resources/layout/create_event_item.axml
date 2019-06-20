@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EventName"
+        android:maxLength="45"
+        android:hint="Event name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EventDescription"
+        android:maxLength="45"
+        android:hint="Description" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/StartDate"
+        android:maxLength="45"
+        android:hint="Start Date" />
+    <Button
+        android:text="Set Start Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SetStartDate" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:id="@+id/EndDate"
+        android:maxLength="45"
+        android:hint="End Date" />
+    <Button
+        android:text="Set End Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SetEndDate" />
+    <Spinner
+        android:id="@+id/DropDownList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/btn_submit_new_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitEvent" />
+</LinearLayout>

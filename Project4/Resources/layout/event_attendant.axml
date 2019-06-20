@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/eat_scroll_view">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/activity_layout">
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:paddingBottom="22dp">
+                  <TextView
+                      android:textAppearance="?android:attr/textAppearanceLarge"
+                      android:textStyle="bold"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/eat_event_name" />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textMultiLine"
+                      android:id="@+id/eat_event_description"
+                      android:paddingBottom="8dp" />
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/eat_event_startdate" />
+                  <TextView
+                      android:paddingBottom="28dp"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/eat_event_enddate" />
+                  <RadioGroup
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+                      <RadioButton
+                          android:id="@+id/eat_attend_yes"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/yes" />
+                      <RadioButton
+                          android:id="@+id/eat_attend_maybe"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/maybe" />
+                      <RadioButton
+                          android:id="@+id/eat_attend_no"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="@string/no" />
+                  </RadioGroup>
+                  <EditText
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:visibility="invisible"
+                      android:id="@+id/eat_reason"
+                      android:maxLength="45"
+                      android:hint="Reason" />
+                  <Button
+                      android:text="@string/btn_confirm"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:visibility="invisible"
+                      android:id="@+id/eat_submit_button" />
+              </LinearLayout>
+              <ListView
+                  android:id="@+id/eat_lv_attendants"
+                  android:layout_width="match_parent"
+                  android:layout_height="300dp"
+                  android:layout_alignParentLeft="true" />
+          </LinearLayout>
+      </RelativeLayout>
+</ScrollView>

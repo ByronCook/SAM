@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Sports Team Assistant Manager</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="menu_refresh">Refresh</string>
+  <string name="fragment1">You are on Fragment 1</string>
+  <string name="fragment2">You are on Fragment 2</string>
+  <string name="desc_overlay">Overlay</string>
+  
+  <!-- Words -->
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="maybe">Maybe</string>
+  
+  <!-- Header -->
+  <string name="header_login">  Login</string>
+  <string name="header_register">Register</string>
+  <string name="header_choose_team">Choose a team</string>
+  <string name="header_create_team">Create a team</string>
+  <string name="header_news_list">News</string>
+  <string name="header_news_message_create">New message</string>
+
+  <!-- Buttons -->
+  <string name="btn_back">Back</string>
+  <string name="btn_back_short" translatable="false">←</string>
+  <string name="btn_continue">Continue</string>
+  <string name="btn_next">Next</string>
+  <string name="btn_previous">Previous</string>
+  <string name="btn_confirm">Confirm</string>
+  <string name="btn_save">Save</string>
+  <string name="btn_cancel">Cancel</string>
+  <string name="btn_set_credentials">Set Credentials</string>
+  <string name="btn_clear_data">Clear Data</string>
+  <string name="btn_restart">Restart</string>
+  <string name="btn_ok">OK</string>
+  <string name="btn_delete">Delete</string>
+  <string name="btn_scan">Scan</string>
+  <string name="btn_0" translatable="false">0</string>
+  <string name="btn_1" translatable="false">1</string>
+  <string name="btn_2" translatable="false">2</string>
+  <string name="btn_3" translatable="false">3</string>
+  <string name="btn_4" translatable="false">4</string>
+  <string name="btn_5" translatable="false">5</string>
+  <string name="btn_6" translatable="false">6</string>
+  <string name="btn_7" translatable="false">7</string>
+  <string name="btn_8" translatable="false">8</string>
+  <string name="btn_9" translatable="false">9</string>
+  <string name="btn_yes">Yes</string>
+  <string name="btn_no">No</string>
+  <string name="btn_retry">Retry</string>
+  <string name="btn_start">Start</string>
+  <string name="btn_login">Login</string>
+  <string name="btn_register">Register</string>
+  <string name="btn_create_new_team">Create New Team</string>
+  <string name="btn_create_new_event">Create New Event</string>
+  <string name="btn_submit_new_event">Submit</string>
+  
+  <!-- Screen Text -->
+  <string name="choose_team">Please choose a team</string>
+  
+  <!-- Spinners -->
+  <string name="spn_club_select">Please select a club</string>
+
+  <!-- Alert Dialogs -->
+  <string name="dlg_default_error_title">Error</string>
+  <string name="dlg_default_error">Something went wrong.</string>
+  <string name="dlg_no_server_title">No Server</string>
+  <string name="dlg_no_server">The server seems to be down please contact tech support if this problem persists.</string>
+  <string name="dlg_no_internet_title">No Internet</string>
+  <string name="dlg_no_internet">Unable to continue, no connection to internet available.</string>
+  <string name="dlg_no_credentials_title">No Credentials</string>
+  <string name="dlg_no_credentials">No username or password was provided, please provide a username and password before trying to login.</string>
+  <string name="dlg_no_username_title">No Username</string>
+  <string name="dlg_no_username">No username was provided, please provide a username before trying to login.</string>
+  <string name="dlg_no_password_title">No Password</string>
+  <string name="dlg_no_password">No password was provided, please provide a password before trying to login.</string>
+  <string name="dlg_bad_credentials_title">Bad Credentials</string>
+  <string name="dlg_bad_credentials">The credentials you are using to access the system are not correct, please change them and try again.</string>
+  <string name="dlg_download_error_title">Download Error</string>
+  <string name="dlg_download_error">An error occurred while downloading, please try again.</string>
+  <string name="dlg_upload_error_title">Upload Error</string>
+  <string name="dlg_upload_error">An error occurred while uploading, please try again.</string>
+  <string name="dlg_connection_error_title">Connection Error</string>
+  <string name="dlg_connection_error">An error occurred no connection, please try again.</string>
+  <string name="dlg_team_name_already_taken_title">Team Name Taken</string>
+  <string name="dlg_team_name_already_taken">The given team name has already been taken, please choose another one.</string>
+  <string name="dlg_no_club_title">No Club</string>
+  <string name="dlg_no_club">No club was provided, please provide one before trying to create a team.</string>
+  <string name="dlg_no_team_name_title">No Team Name</string>
+  <string name="dlg_no_team_name">No team name was provided, please provide one before trying to create a team.</string>
+  <string name="dlg_database_error_title">Database Connection Error</string>
+  <string name="dlg_database_error">An error occurred while connecting to the database, please try again.</string>
+
+  <string name="dlg_no_event_name">The given event name has already been taken, please choose another one.</string>
+  <string name="dlg_no_event_startdate">There was no starting date filled in, please fill in a starting date.</string>
+  <string name="dlg_no_event_enddate">There was no ending date filled in, please fill in an ending date.</string>
+  <string name="dlg_event_already_exists">This event already exists, please create a new one.</string>
+  <string name="dlg_no_event_type">No event type was filled in, please enter one.</string>
+  <string name="dlg_primary_date_later_than_secondary">The chosen ending date is earlier than the starting one. Please make sure it is a later date.</string>
+  <string name="dlg_date_has_already_passed">The selected date is in the past, please make sure it is in the future.</string>
+
+  <string name="dlg_no_event_name_title">No Event Name</string>
+  <string name="dlg_no_event_startdate_title">No Starting Date</string>
+  <string name="dlg_no_event_enddate_title">No Ending Name</string>
+  <string name="dlg_event_already_exists_title">Event already exists</string>
+  <string name="dlg_no_event_type_title">No Event Type</string>
+  <string name="dlg_primary_date_later_than_secondary_title">Date Error</string>
+  <string name="dlg_date_has_already_passed_title">Date is in the past</string>
+
+  <string name="planet_prompt">Choose a planet</string>
+  <string-array name="planets_array">
+    <item>Mercury</item>
+    <item>Venus</item>
+    <item>Earth</item>
+    <item>Mars</item>
+    <item>Jupiter</item>
+    <item>Saturn</item>
+    <item>Uranus</item>
+    <item>Neptune</item>
+  </string-array>
+</resources>

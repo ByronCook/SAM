@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/newsl_new_message_button"
+        android:layout_below="@+id/toolbar_layout"
+        android:layout_alignParentRight="true"
+        android:text="[ + ] New Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
+    <ListView
+        android:id="@+id/newsl_ListView"
+        android:layout_below="@+id/newsl_new_message_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp" />
+</RelativeLayout>
